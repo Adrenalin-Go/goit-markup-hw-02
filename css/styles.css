@@ -37,10 +37,7 @@ a {
 :focus {
   color: #404bbf;
 }
-.hiro-btn-orderhover:hover,
-:focus {
-  color: #404bbf;
-}
+
 .contacts {
   font-style: normal;
 }
@@ -58,9 +55,21 @@ a {
 .hero {
   background-color: #2e2f42;
 }
+.hiro-btn-order {
+  background-color: #4d5ae5;
+}
+.hiro-btn-order:hover,
+:focus {
+  background-color: #404bbf;
+}
 
 .hiro-title {
-  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 .hiro-btn-order {
   font-weight: 500;
